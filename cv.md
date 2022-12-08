@@ -8,4 +8,4 @@
 5. **Code:** 
 6. **Experience:** study HTML, CSS, JS on <https://htmlacademy.ru/>
 7. **Education:** I graduated BNTU, Faculty of Engineering and Pedagogy
-8. **English:** 
+8. **English:** A1
