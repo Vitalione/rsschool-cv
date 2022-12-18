@@ -1,24 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="style.css" />
-	<title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>My CV</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-	<header class="header">CV</header>
+  <div class="cv">
+    <section>
+      <h1>Tsishkevich Vitali</h1>
+      <h2>Front-end web developer</h2>
 
-	<nav>Меню навигационное</nav>
+      <div class="theme-switch-wrapper">
+        <label class="theme-switch">
+          <input type="checkbox" class="theme-switch__checkbox"/>
+          <div class="slider round"></div>
+        </label>
+        <span class="theme-switch__label">Dark Mode</span>
+      </div>
 
-	<aside>SideBar - колонка сбоку</aside>
+      <div class="contacts">
+        <div class="contact">
+          <div class="contact__type">
+            Github
+          </div>
+          <div class="contact__value">
+            <a href="https://github.com/Vitalione/">github.com/Vitalione</a>
+          </div>
+        </div>
+        <div class="contact">
+          <div class="contact__type">
+            Email
+          </div>
+          <div class="contact__value">
+            <a href="mailto:80293501401@mail.ru">80293501401@mail.ru</a>
+          </div>
+        </div>
+      </div>
+      <div class="description">
+        A high degree of self-organization, decency. I constantly strive for self-development, I read books. I am able to clearly express my thoughts, share information and get along with people in large team.
+      </div>
+    </section>
+    <section>
+      <h3>Experience</h3>
+      <div class="experience">
+        <div class="experience__date">01.06.2021 - present</div>
+        <div class="experience__description">
+          <div class="experience__name">study HTML, CSS, JS</div>
+          <div class="experience__company"><https://htmlacademy.ru/></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <h3>Skills</h3>
+      <div>
+        Figma, HTML, CSS
+      </div>
+    </section>
+  </div>
 
-	<article>
-		Главное содержимое страницы (контент).
-	</article>
-
-	<footer>Подвал сайта</footer>
-
+  <script src='js/script.js'></script>
 </body>
 </html>
